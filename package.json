@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://rootnaturebackend.vercel.app",
+  "proxy": "https://stingray-app-h9j4v.ondigitalocean.app/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
     "@testing-library/jest-dom": "^5.17.0",
@@ -11,7 +11,6 @@
     "axios": "^1.7.2",
     "date-fns": "^3.6.0",
     "formik": "^2.4.6",
-    "http-proxy-middleware": "^3.0.0",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.3.1",

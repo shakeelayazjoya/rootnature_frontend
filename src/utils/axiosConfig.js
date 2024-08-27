@@ -1,5 +1,5 @@
 // export const base_url = "http://localhost:5000/api/";
-export const base_url = "https://rootnaturebackend.vercel.app/api/";
+export const base_url = "https://stingray-app-h9j4v.ondigitalocean.app/api/";
 
 const getTokenFromLocalStorage = () => {
   try {
