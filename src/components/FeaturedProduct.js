@@ -7,6 +7,7 @@ import { FaRegHeart } from "react-icons/fa";
 import { toast } from "react-toastify";
 import ProductCard from "./ProductCard";
 import CustomCard from "./CategoryCard";
+import { add } from "date-fns";
 
 const FeaturedProduct = () => {
   const navigate = useNavigate();
@@ -36,6 +37,8 @@ const FeaturedProduct = () => {
         <h1 className="feature-section-head text-center mb-5 font-bold text-3xl">
           Our Popular Products
         </h1>
+        <button onClick={() => add}>add</button>
+
         {featuredProducts.length === 0 ? (
           <p className="text-center text-xl text-gray-600 mt-5">
             No products available
